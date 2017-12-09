@@ -1,0 +1,125 @@
+a {
+	color: #000;
+}
+
+.bg-int{
+	width: 480px;
+	height: 60px;
+	font-size: 24px;
+	color: #fff;
+	background: #1c1b1b;
+	border: none;
+	border-radius: 5px;
+}
+
+form {
+	width: 630px;
+	background-color: #000;
+  border: 25px solid #03a5da;
+  border-radius: 0 5px 5px 5px;
+  position: relative;
+}
+
+.nav-tabs{
+	border: 0;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+	background-color: #03a5da;
+	border-color: #03a5da;
+	color: #fff;
+}
+
+.nav-tabs .nav-item {
+	margin-right: 10px;
+}
+
+.inp-top {
+	margin-top: 70px;
+	margin-left: 50px;
+}
+
+.inp-centr {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.inp-bottom {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.inp-reg-bottom{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 70px;
+}
+
+.text-muted a{
+	color: #c51f03;
+	font-size: 15px;
+	margin-top: 22px;
+	margin-left: 65px;
+}
+
+.form-check {
+	margin-top: 60px;
+	margin-left: 65px;
+	margin-bottom: 40px;
+}
+
+.form-check-input {
+	margin-top: 0.50rem;
+}
+
+.btn-form {
+	position: absolute;
+	width: 148px;
+	height: 42px;
+	background: -webkit-radial-gradient(#cc2203, #7f0501);
+	background: -o-radial-gradient(#cc2203, #7f0501);
+	background: radial-gradient(#cc2203, #7f0501);
+	border: none;
+	border-radius: 0;
+	font-size: 24px;
+	left: 492px;
+	bottom: 34px;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	border: none;
+	background: -webkit-radial-gradient(#cc2203, #7f0501);
+	background: -o-radial-gradient(#cc2203, #7f0501);
+	background: radial-gradient(#cc2203, #7f0501);
+}
+
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.name h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #0bbaf0;
+}
+
+.name h2 {
+	font-size: 24px;
+	font-weight: 300;
+	color: #0bbaf0;
+}
+
+hr{
+	width: 125px;
+}
+
+.card-header {
+	background-color: #0bbaf0;
+}
+
+.card-header a {
+	color: #fff;
+	text-decoration: none;
+}

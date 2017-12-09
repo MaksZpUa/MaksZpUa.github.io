@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<link rel="icon" href="../../../../favicon.ico">
+			<title>FORM</title>
+			<!-- Bootstrap core CSS -->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/form-accord.css" rel="stylesheet">
+		</head>
+		<body>
+			<main>
+				<div class="container">
+					<div class="row">
+						<div class="col offset-3">
+							<div class="forms">
+									<div class="tabs">
+										<ul class="nav nav-tabs" id="myTab" role="tablist">
+										  <li class="nav-item">
+										    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Вход</a>
+										  </li>
+										  <li class="nav-item">
+										    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Регистрация</a>
+										  </li>
+										</ul>
+										<div class="tab-content" id="myTabContent">
+										  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+										  	<form>
+												  <div class="form-group inp-top">
+												    <input type="email" class="form-control bg-int" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+												  </div>
+												  <div class="form-group inp-bottom">
+												    <input type="password" class="form-control bg-int" id="exampleInputPassword1" placeholder="Пароль">
+												  </div>
+												    <small id="emailHelp" class="form-text text-muted"><a href="#">Забыли пароль?</a></small>
+												  <div class="form-check">
+												    <label class="form-check-label">
+												      <input type="checkbox" class="form-check-input">
+												      Напомнить мне
+												    </label>
+												  </div>
+												  <button type="submit" class="btn btn-primary btn-form">Войти</button>
+		                    </form>
+										  </div>
+										  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+										  	<form>
+												  <div class="form-group inp-top">
+												    <input type="email" class="form-control bg-int" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш email">
+												  </div>
+												  <div class="form-group inp-centr">
+												    <input type="password" class="form-control bg-int" id="exampleInputPassword1" placeholder="Ваше имя">
+												  </div>
+												  <div class="form-group inp-centr">
+												    <input type="email" class="form-control bg-int" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите пароль">
+												  </div>
+												  <div class="form-group inp-reg-bottom">
+												    <input type="password" class="form-control bg-int" id="exampleInputPassword1" placeholder="Повторите пароль">
+												  </div>
+												  <button type="submit" class="btn btn-primary btn-form">Войти</button>
+		                    </form>
+										  </div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col text-center">
+							<div class="name">
+								<h1>Ответы на вопросы</h1>
+								<h2>Которые нам задают чаще всего</h2>
+								<hr>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div id="accordion" role="tablist">
+							  <div class="card">
+							    <div class="card-header" role="tab" id="headingOne">
+							      <h5 class="mb-0">
+							        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+							        </a>
+							      </h5>
+							    </div>
+
+							    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+							      <div class="card-body">
+							        Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" role="tab" id="headingTwo">
+							      <h5 class="mb-0">
+							        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+							        </a>
+							      </h5>
+							    </div>
+							    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+							      <div class="card-body">
+							        Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" role="tab" id="headingThree">
+							      <h5 class="mb-0">
+							        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							          Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+							        </a>
+							      </h5>
+							    </div>
+							    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+							      <div class="card-body">
+							        Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" role="tab" id="headingFour">
+							      <h5 class="mb-0">
+							        <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							          Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+							        </a>
+							      </h5>
+							    </div>
+							    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+							      <div class="card-body">
+							        Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" role="tab" id="headingFive">
+							      <h5 class="mb-0">
+							        <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+							          Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+							        </a>
+							      </h5>
+							    </div>
+							    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+							      <div class="card-body">
+							        Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+	   
+	
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		</body>
+	</html>	
